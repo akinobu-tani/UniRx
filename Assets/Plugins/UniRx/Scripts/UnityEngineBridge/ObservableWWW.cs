@@ -1,3 +1,5 @@
+#if UNIRX_WWW_SUPPORT
+
 using System;
 using System.Collections;
 using UnityEngine;
@@ -439,4 +441,6 @@ namespace UniRx
 
 #if UNITY_2018_3_OR_NEWER
 #pragma warning restore CS0618
+#endif
+
 #endif
